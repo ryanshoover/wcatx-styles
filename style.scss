@@ -1,12 +1,15 @@
 $white: #FFFFFF;
 $blue: #162A33;
 
-.button {
+.button, a.button, button {
 	display: inline-block;
 	padding: 5px 10px;
 	margin: 0 10px;
+	box-shadow: none;
 	background-color: $blue;
 	color: $white;
+	text-transform: uppercase;
+	font-weight: 100;
 
 	&:hover, &:focus {
 		color: $white;
