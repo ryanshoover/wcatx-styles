@@ -9,7 +9,8 @@ $blue: #162A33;
 	color: $white;
 
 	&:hover, &:focus {
-		border-bottom: 0;
-		color: lighten( $blue, 20% );
+		color: $white;
+		box-shadow: none;
+		background-color: lighten( $blue, 20% );
 	}
 }
