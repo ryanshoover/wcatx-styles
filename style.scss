@@ -1,19 +1,21 @@
 $white: #FFFFFF;
 $blue: #162A33;
 
-.button, a.button, button {
-	display: inline-block;
-	padding: 5px 10px;
-	margin: 0 10px;
-	box-shadow: none;
-	background-color: $blue;
-	color: $white;
-	text-transform: uppercase;
-	font-weight: 100;
-
-	&:hover, &:focus {
-		color: $white;
+.entry-content {
+	.button, a.button, button {
+		display: inline-block;
+		padding: 5px 10px;
+		margin: 0 10px;
 		box-shadow: none;
-		background-color: lighten( $blue, 20% );
+		background-color: $blue;
+		color: $white;
+		text-transform: uppercase;
+		font-weight: 100;
+
+		&:hover, &:focus {
+			color: $white !important;
+			box-shadow: none !important;
+			background-color: lighten( $blue, 20% );
+		}
 	}
 }
