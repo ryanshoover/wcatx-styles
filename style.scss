@@ -42,15 +42,20 @@ body.page:not(.twentyseventeen-front-page) {
 	}
 }
 
+// Single page featured images are max 300px tall
 .single-featured-image-header {
 	position: relative;
 	height: 300px;
 	overflow: hidden;
 
+	// Image is vertically and horizontally aligned
 	img {
 		position: absolute;
 		top:50%;
+		left: 0;
+		right: 0;
 		transform: translateY(-50%);
+		margin: auto auto;
 	}
 }
 
