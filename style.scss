@@ -95,5 +95,6 @@ body.page:not(.twentyseventeen-front-page) {
 }
 
 .home .site-branding-text {
-	display: none;
+	position: absolute;
+	left: -999em;
 }
