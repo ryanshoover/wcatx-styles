@@ -75,26 +75,37 @@ body.page:not(.twentyseventeen-front-page) {
 /**
  * Styles for the homepage hero image
  */
-.home .custom-header-media:after {
-	position: absolute;
-	display: block;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	z-index: 2;
-	content: "";
-	background-image: url('http://2017.austin.wordcamp.org/files/2017/06/WCATX_weblogo_color-date.png');
-	background-repeat: no-repeat;
-	background-size: 425px 500px;
-	background-color: rgba( $white, 0.9 );
-	background-position: center;
-	border-radius: 50px;
-	width: 520px !important;
-	height: 620px;
-	margin: -36px 0 0;
+.home {
+
+	.custom-header-media:after {
+	    position: absolute;
+	    display: block;
+	    top: 50%;
+	    left: 50%;
+	    transform: translate(-50%,-50%);
+	    z-index: 2;
+	    content: "";
+	    background-image: url(http://2017.austin.wordcamp.org/files/2017/06/WCATX_weblogo_color-date.png);
+	    background-repeat: no-repeat;
+	    background-size: contain;
+	    background-color: rgba(255,255,255,0.9);
+	    background-position: center;
+	    border-radius: 50px;
+	    width: 90%;
+	    height: 90%;
+		max-width: 450px;
+	    max-height: 550px;
+	    margin: 0;
+	}
+
+	.site-branding-text {
+		position: absolute;
+		left: -999em;
+	}
 }
 
-.home .site-branding-text {
-	position: absolute;
-	left: -999em;
+@media (min-width: 48em) {
+	.home .custom-header-media:after {
+			top: calc(50% - 36px);
+	}
 }
