@@ -71,3 +71,25 @@ body.page:not(.twentyseventeen-front-page) {
 		margin-right: 0.5em;
 	}
 }
+
+/**
+ * Styles for the homepage hero image
+ */
+.home .custom-header-media:after {
+	position: absolute;
+	display: block;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 2;
+	content: "";
+	background-image: url('http://2017.austin.wordcamp.org/files/2017/06/WCATX_weblogo_color-date.png');
+	background-repeat: no-repeat;
+	background-size: 425px 500px;
+	background-color: rgba( $white, 0.9 );
+	background-position: center;
+	border-radius: 50px;
+	width: 520px !important;
+	height: 620px;
+	margin: -36px 0 0;
+}
