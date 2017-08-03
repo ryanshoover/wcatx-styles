@@ -91,7 +91,7 @@ body.page:not(.twentyseventeen-front-page) {
 		max-width: 450px;
 		max-height: 550px;
 		margin: 0;
-		-webkit-mask: url(/files/2017/08/home-logo-cutout.png) 0 0/107% no-repeat;
+		--webkit-mask: url(/files/2017/08/home-logo-cutout.png) 0 0/107% no-repeat;
 		mask: url(/files/2017/08/home-logo-cutout.png) 0 0/107% no-repeat;
 	}
 
