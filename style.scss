@@ -91,16 +91,12 @@ body.page:not(.twentyseventeen-front-page) {
 		max-width: 450px;
 		max-height: 550px;
 		margin: 0;
-		-webkit-mask: url("http://2017.austin.wordcamp.org/files/2017/08/home-logo-cutout.png") 0 0/107% no-repeat;
+		-webkit-mask: url(/files/2017/08/home-logo-cutout.png) 0 0/107% no-repeat;
+		mask: url(/files/2017/08/home-logo-cutout.png) 0 0/107% no-repeat;
 	}
 
 	.site-branding-text {
 		position: absolute;
 		left: -999em;
-	}
-}
-@media (min-width: 48em) {
-	.home .custom-header-media:after {
-		top: calc(50% - 36px);
 	}
 }
