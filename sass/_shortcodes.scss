@@ -1,0 +1,12 @@
+// Speaker shortcode
+.wcorg-speaker-description {
+  .avatar {
+    float: left;
+    margin: 0 $gutter $gutter 0;
+  }
+}
+
+// Gravatar hovercards
+img.grav-clone {
+    transform: scale(1.2);
+}

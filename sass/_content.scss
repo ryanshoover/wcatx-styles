@@ -1,0 +1,42 @@
+/**
+ * General Entry Content Styles
+ */
+.entry-content {
+	ul {
+		padding-left: 1em;
+	}
+
+	.button,
+	a.button,
+	button {
+		display: inline-block;
+		padding: 5px 10px;
+		margin: 0 10px;
+		box-shadow: none;
+		background-color: $blue;
+		color: $white;
+		text-transform: uppercase;
+		font-weight: 100;
+
+		&:focus,
+		&:hover {
+			color: $white !important;
+			box-shadow: none !important;
+			background-color: lighten( $blue, 20% );
+		}
+	}
+}
+
+
+/**
+ * Styles for the Jetpack contact form
+ */
+.contact-form {
+	label {
+		font-weight: 400 !important;
+	}
+
+	input.radio {
+		margin-right: 0.5em;
+	}
+}
