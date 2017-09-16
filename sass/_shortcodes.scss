@@ -10,3 +10,63 @@
 img.grav-clone {
     transform: scale(1.2);
 }
+
+// Schedule
+
+.wcpt-schedule tbody, .wcpt-schedule tr, .wcpt-schedule th, .wcpt-schedule td {
+	display: block;
+	text-align: center;
+}
+
+.wcpt-schedule thead, .wcpt-session-empty {
+	display: none;
+}
+
+.wcpt-session-type-session:before {
+	color: $gold;
+	content: attr(data-track-title);
+	display: block;
+	font-size: 90%;
+	line-height: 1;
+	margin-top: 10px;
+	padding: 10px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.wcpt-schedule tr {
+	margin-bottom: $gutter * 3;
+  border: 0;
+}
+
+td.wcpt-time {
+	font-weight: bold;
+	color: $white;
+	text-align: center;
+	background: $blue;
+}
+
+a.wcpt-session-title {
+  color: $navy;
+	font-weight: bold;
+  text-decoration: none;
+  box-shadow: none;
+	margin-top: 29px;
+
+  &:hover, &:focus {
+    box-shadow: none;
+    color: $blue;
+  }
+}
+
+span.wcpt-session-speakers {
+    display: block;
+    a {
+      box-shadow: none;
+
+      &:hover, &:focus {
+        box-shadow: none;
+        color: $blue;
+      }
+    }
+}

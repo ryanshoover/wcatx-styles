@@ -5,12 +5,8 @@
  * @package twentyseventeen
  */
 
-// Variables
-$white: #FFFFFF;
-$blue: #162A33;
-$gutter: 1em;
-
 // Imports
+@import 'sass/variables';
 @import 'sass/headers';
 @import 'sass/content';
 @import 'sass/shortcodes';
