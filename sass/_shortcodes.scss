@@ -23,7 +23,7 @@ img.grav-clone {
 }
 
 .wcpt-session-type-session:before {
-	color: $gold;
+	color: $orange;
 	content: attr(data-track-title);
 	display: block;
 	font-size: 90%;
@@ -49,6 +49,7 @@ td.wcpt-time {
 a.wcpt-session-title {
   color: $navy;
 	font-weight: bold;
+  letter-spacing: 0.5px;
   text-decoration: none;
   box-shadow: none;
 	margin-top: 29px;
