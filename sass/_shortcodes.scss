@@ -19,10 +19,10 @@ img.grav-clone {
 }
 
 .wcpt-schedule thead, .wcpt-session-empty {
-	display: none;
+	display: none !important;
 }
 
-.wcpt-session-type-session:before {
+.wcpt-session-type-session:before, .wcpt-session-type-custom:before {
 	color: $orange;
 	content: attr(data-track-title);
 	display: block;
